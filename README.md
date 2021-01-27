@@ -10,13 +10,13 @@ You will need: git and build-essentials
 > $ sudo apt-get -yqq update && sudo apt-get -yqq git build-essential
 
 Building:
-> $ git clone https://github.com/Naikelin/docker-exercise1 \n
-> $ cd docker-exercise1 \n
+> $ git clone https://github.com/Naikelin/docker-exercise1  \
+> $ cd docker-exercise1  \
 > $ make
 
 Run:
 
-> On folder directory where you did make \n
+> On folder directory where you did make  \
 > $ ./check 'someword'
 
 If you built a docker:
