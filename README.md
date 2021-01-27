@@ -33,6 +33,6 @@ Usted deberá buildear esta aplicación ejecutando el comando 'make' (make const
 Una vez se haya construido la imagen, deberá ejecutar el siguiente comando:
 > docker run -it hashing /bin/sh -c "cd /docker-exercise1 && ./check $(echo "ZG9ja2VyIC12Cg==" | base64 -d | sh | tr -s ' ' | cut -d ' ' -f 1)"
 
-La ruta donde usted haga el *cd /docker-exercise1*  dependerá directamente de dónde usted haya generado el ejecutable del make. En este caso, se realizó el make en */docker-exercise1 * con respecto a la raíz.
+La ruta donde usted haga el *cd /docker-exercise1*  dependerá directamente de dónde usted haya generado el ejecutable del make. En este caso, se realizó el make en */docker-exercise1* con respecto a la raíz.
 
 Usted al ejecutar lo enterior, le dará como output un string. ¡Si usted ingresa ese string correctamente a canvas, tendrá la pregunta buena!
