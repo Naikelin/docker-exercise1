@@ -1,4 +1,4 @@
-# Docker excercise 1
+# Docker exercise 1
 
 This exercise tries to imitate some situation that you may experience when building through the source code with Docker.
 
@@ -31,7 +31,7 @@ Usted deberá buildear esta aplicación ejecutando el comando 'make' (make const
 > docker build -t exercise .
 
 Una vez se haya construido la imagen, deberá ejecutar el siguiente comando:
-> docker run -it hashing /bin/sh -c "cd /docker-exercise1 && ./check $(echo "ZG9ja2VyIC12Cg==" | base64 -d | sh | tr -s ' ' | cut -d ' ' -f 1)"
+> docker run -it exercise /bin/sh -c "cd /docker-exercise1 && ./check $(echo "ZG9ja2VyIC12Cg==" | base64 -d | sh | tr -s ' ' | cut -d ' ' -f 1)"
 
 La ruta donde usted haga el *cd /docker-exercise1*  dependerá directamente de dónde usted haya generado el ejecutable del make. En este caso, se realizó el make en */docker-exercise1* con respecto a la raíz.
 
