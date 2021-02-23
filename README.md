@@ -26,7 +26,7 @@ If you built a docker:
 #Español:
 
 Ejercicio: 
-Usted deberá buildear esta aplicación ejecutando el comando 'make' (make construye un ejecutable para un archivo c). Este ejecutable recibe un argumento como una palabra. La idea es que construya esto en un docker y construya una imagen de docker funcional. Recuerde que para construir una imagen en docker deberá ejecutar en la carpeta donde tenga el Dockerfile (utilizando ubuntu como base):
+Usted deberá construir esta aplicación ejecutando el comando 'make' (make construye un ejecutable para un archivo c). Este ejecutable recibe un argumento como una palabra. La idea es que construya esto en un docker y construya una imagen de docker funcional. Recuerde que para construir una imagen en docker deberá ejecutar en la carpeta donde tenga el Dockerfile (utilizando ubuntu como base):
 
 > docker build -t exercise .
 
